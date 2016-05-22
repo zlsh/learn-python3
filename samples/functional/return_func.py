@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
+#mark by luoshuhan 20160522
 def lazy_sum(*args):
     def sum():
         ax = 0
