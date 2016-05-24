@@ -9,6 +9,8 @@ import sys
 
 def hellolsh():
 	args = sys.argv
+#sys有一个argv变量，用list存储了命令行的所有参数。argv至少有一个元素，因为第一个参数永远是该.py文件
+#的名称。
 	if len(args)==1:
 		print('Hello,luoshuhan!')
 	elif len(args)==2:
